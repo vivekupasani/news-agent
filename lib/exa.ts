@@ -6,8 +6,8 @@ export async function getIndiaNews() {
     const result = await exa.searchAndContents(
         "Top breaking news India today politics business technology sports site:ndtv.com OR site:indianexpress.com OR site:hindustantimes.com OR site:thehindu.com",
         {
-            numResults: 3,
-            // livecrawl: "always",
+            numResults: 30,
+            livecrawl: "always",
         }
     );
 
